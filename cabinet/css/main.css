@@ -1,0 +1,1079 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+	color: #c7c7c7;
+	font: normal 13px Arial,Helvetica,sans-serif;
+	background: transparent url('../images/bg.png') 0% 0%;
+        height:100%;
+        min-height: 100%;
+}
+
+#newbody {
+    min-height:100%;
+    _height:100%;
+    height:auto !important;
+    height:100%;
+}
+
+#page
+{
+    padding:0 0 150px 0;
+    margin-top:35px;
+    position: relative;
+}
+
+#header
+{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:60px;
+    background: transparent url(../images/headertop.png) top left repeat-x;
+}
+
+#header-top {
+    margin:0;
+    padding:0;
+    background: transparent url(../images/wallet-header.png) top left no-repeat;
+    height: 60px;
+}
+
+#header-bottom {
+    margin-top:-5px;
+    padding:0;
+    width:100%;
+    background: transparent url(../images/header-fangs.png) top left repeat-x;
+    height: 54px;
+}
+
+#header-menu{
+    padding-top:14px;
+    padding-left:15px;
+}
+
+#userdetails {
+    display:inline-block;
+    padding-top:20px;
+}
+.headerlink {
+    display: inline-block;
+    padding-top:20px;
+    padding-left:20px;
+}
+#userdetails b {
+    color:#fefefe;
+}
+.cnt
+{
+    margin-left:20px;
+    min-height:400px;
+    width:720px;
+    padding-bottom:30px;
+}
+
+#sidebar
+{
+	padding: 20px 20px 20px 0;
+}
+
+#footer-out
+{
+        width:100%;
+        background: #141517 url('../images/footerfangs.png') top repeat-x;
+        height: 140px;
+        margin-top: -140px;
+        z-index: 1;
+        position: relative;
+}
+
+#footer
+{
+	padding: 30px;
+        margin: 0 auto;
+	font-size: 12px;
+        color: #c7c7c7;
+        width:960px;
+/*	border-top: 1px solid #C9E0ED;*/
+}
+#footercopy {
+    width:240px;
+    text-align:right;
+    margin-right:20px;
+}
+#footerlinks a{
+    margin: 0 20px 16px 0;
+    display:inline-block;
+}
+#footer-logo{
+    background: transparent url('../images/footer-logo.png') center center no-repeat;
+    height: 17px;
+    width: 68px;
+}
+
+#logo
+{
+        background: transparent url('../images/logo.png') left 15px no-repeat;
+        height:32px;
+        padding-top:15px;
+        padding-left:121px;
+/*        width:121px;*/
+        display:inline-block;
+}
+a #logo, a #logo:hover {
+    color: #c7c7c7;
+}
+
+#mainmenu
+{
+        display:inline-block;
+        height:35px;
+        float:left;
+}
+
+#mainmenu ul
+{
+/*	padding:0px 20px 5px 20px;*/
+	margin:0px;
+}
+
+#mainmenu ul li
+{
+	display: inline-block;
+        float:right;
+}
+
+#mainmenu ul li a
+{
+/*	color:#ffffff;*/
+	background-color:transparent;
+	font-size:12px;
+/*	font-weight:bold;*/
+	text-decoration:none;
+/*	padding:5px 8px;*/
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+/*	color: #6399cd;
+	background-color:#EFF4FA;
+	text-decoration:none;*/
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.search-form
+{
+	padding: 10px;
+	margin: 10px 0;
+	background: #eee;
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-left: 5px solid #6FACCF;
+}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #298dcd;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+	font: bold 12px Arial;
+	color: #0066A4;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.operations li a:visited
+{
+	color: #0066A4;
+}
+
+.operations li a:hover
+{
+	background: #80CFFF;
+}
+
+/***************** CUSTOM CODE */
+DIV#content DIV.compactRadioGroup {
+    padding-left: 1em;
+}
+
+DIV#content .compactRadioGroup LABEL,
+DIV#content .compactRadioGroup INPUT {
+    display: inline;
+}
+
+.homelink {
+    height:20px;
+    width: 20px;
+    vertical-align: top;
+    display: inline-block;
+    margin-top:5px;
+    background: transparent url('../images/homelink.png') center center no-repeat;
+}
+
+.content-box {
+    padding:0;
+    margin-top:1.5em;
+}
+.homelink img {
+}
+
+.shadowed {
+    background: #141517;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow:    0 1px 0px 0px #505256, inset 0 1px 1px 0 #0a0a0b;
+    -webkit-box-shadow: 0 1px 0px 0px #505256, inset 0 1px 1px 0 #0a0a0b;
+    box-shadow:         0 1px 0px 0px #505256, inset 0 1px 1px 0 #0a0a0b;
+    padding: 1px;
+    behavior: url(/PIE.htc);
+}
+
+.padmenu .menuitem {
+margin:2px;
+height:40px;
+width:240px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-webkit-box-shadow: #050506 0px 1px 3px, inset #484a4e 0px 1px 0;
+-moz-box-shadow: #050506 0px 1px 3px, inset #484a4e 0px 1px 0;
+box-shadow: #050506 0px 1px 3px, inset #484a4e 0px 1px 0;
+background: transparent url(../images/padmenuitem.png) top left repeat-x;
+/*background: -webkit-gradient(linear, 0 0, 0 bottom, from(#393b40), to(#292a2d));
+background: -webkit-linear-gradient(#393b40, #292a2d);
+background: -moz-linear-gradient(#393b40, #292a2d);
+background: -ms-linear-gradient(#393b40, #292a2d);
+background: -o-linear-gradient(#393b40, #292a2d);
+background: linear-gradient(#393b40, #292a2d);
+-pie-background: linear-gradient(#393b40, #292a2d);
+behavior: url(/PIE.htc);*/
+}
+
+.padmenu .menuitem:hover, .padmenu .menuitem.active {
+-webkit-box-shadow: #050506 0px 1px 3px, inset #ffe4ba 0px 1px 0;
+-moz-box-shadow: #050506 0px 1px 3px, inset #ffe4ba 0px 1px 0;
+box-shadow: #050506 0px 1px 3px, inset #ffe4ba 0px 1px 0;
+background: transparent url(../images/padmenuitem-hover.png) top left repeat-x;
+/*background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffc66b), to(#ff9311));
+background: -webkit-linear-gradient(#ffc66b, #ff9311);
+background: -moz-linear-gradient(#ffc66b, #ff9311);
+background: -ms-linear-gradient(#ffc66b, #ff9311);
+background: -o-linear-gradient(#ffc66b, #ff9311);
+background: linear-gradient(#ffc66b, #ff9311);
+-pie-background: linear-gradient(#ffc66b, #ff9311);
+behavior: url(/PIE.htc);*/
+}
+
+.padmenu .menuitem .text {
+    height:40px;
+    margin-left:8px;
+    padding-left:30px;
+    font-size:18px;
+/*    text-shadow: 0px -1px 2px #161618;*/
+}
+
+.padmenu .menuitem .text {
+    text-shadow:none;
+}
+
+.padmenu a{
+    text-decoration:none;
+    color:#c7c7c7;
+}
+.padmenu a:hover, .padmenu a .menuitem.active{
+    color:#4e3205;
+}
+
+.padmenu .menuitem .text .label {
+    font-family:Arial, sans-serif;
+    font-size:11px;
+    font-style:italic;
+    color:#84aa31;
+}
+.padmenu .menuitem:hover .text .label,.padmenu .menuitem.active .text .label  {
+    color:#764c08;
+}
+
+/* Стили для левого меню: */
+.padmenu .menuitem #get.text {background:transparent url(../images/icons/get.png) left center no-repeat;}
+.padmenu .menuitem:hover #get.text,.padmenu .menuitem.active #get.text {background:transparent url(../images/icons/get-hover.png) left center no-repeat;}
+.padmenu .menuitem #put.text {background:transparent url(../images/icons/put.png) left center no-repeat;}
+.padmenu .menuitem:hover #put.text, .padmenu .menuitem.active #put.text {background:transparent url(../images/icons/put-hover.png) left center no-repeat;}
+.padmenu .menuitem #switch.text {background:transparent url(../images/icons/switch.png) left center no-repeat;}
+.padmenu .menuitem:hover #switch.text,.padmenu .menuitem.active #switch.text {background:transparent url(../images/icons/switch-hover.png) left center no-repeat;}
+
+.padmenu .menuitem .text {
+    font-family: Arial, sans-serif;
+    font-size:18px;
+}
+
+.padtable {
+    padding:3px;
+}
+
+.padtable .headrow, table.padtable > thead > tr{
+    height:32px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: #050506 0px 1px 3px;
+    -moz-box-shadow: #050506 0px 1px 3px;
+    box-shadow: #050506 0px 1px 3px;
+    background: transparent url(../images/tableheaderbg.png) top left repeat-x;
+}
+.padtable .headrow th, .padtable .headrow div, table.padtable > thead th{
+    border: transparent;
+    border-left: 1px solid #1b1c1e;
+    padding: 6px 10px;
+}
+.padtable .headrow th:first-child, .padtable .headrow div, table.padtable > thead th:first-child{
+    border-left:none;
+}
+table.padtable > thead a{
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+.padtable .trow:hover {
+    background-color: #2c2d2f;
+}
+
+/* TODO: Не работает: */
+.padtable tr.trow td {
+    border-bottom:1px solid #393b40;
+}
+.padtable tr.trow:last-child td {
+    border-bottom:none;
+}
+
+.padtable .trow {
+    height:27px;
+    position:relative;
+}
+
+.padtable td, .padtable .trow div {
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+
+#content {
+    margin-top:30px;
+}
+
+.transits{
+    background: #141517;
+    width:112px;
+    height:16px;
+    margin: 0px 12px 12px 0px;
+    padding: 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow:    0 1px 0px 0px #505256, inset 0 1px 1px 0 #0a0a0b;
+    -webkit-box-shadow: 0 1px 0px 0px #505256, inset 0 1px 1px 0 #0a0a0b;
+    box-shadow:         0 1px 0px 0px #505256, inset 0 1px 1px 0 #0a0a0b;
+    display:inline-block;
+    behavior: url(/PIE.htc);
+}
+.curr, .val{
+    font-family: arial, sans-serif;
+    font-weight:bold;
+    font-size: 14px;
+}
+.curr {color:#84aa31;}
+.val {color:#fff;}
+.full-center {
+    width:420px;
+    display:inline-block;
+}
+.separator {background: transparent url(../images/separator.png) left;height:2px;display:inline-block;margin:10px 0px 10px 0px;padding:0;width:100%}
+h3 span, h4 span, h5 span {
+    color:#fff;
+}
+.cached {
+    color:#cfcfcf;
+}
+
+.faqmenu {
+    padding:3px;
+}
+.faqmenu .menuitem {
+width:240px;
+border-top: #393b40 1px solid;
+}
+.faqmenu a:first-of-type .menuitem, .faqmenu .menuitem:hover{
+    border-top: transparent 1px solid;
+}
+
+.faqmenu .menuitem.active {
+    background: #2C2D2F;
+}
+
+.faqmenu .menuitem:hover {
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+border-radius: 1px;
+-webkit-box-shadow: #050506 0px 1px 3px, inset #ffe4ba 0px 1px 0;
+-moz-box-shadow: #050506 0px 1px 3px, inset #ffe4ba 0px 1px 0;
+box-shadow: #050506 0px 1px 3px, inset #ffe4ba 0px 1px 0;
+background: transparent url(../images/faqmenuitem-hover.png) top left repeat-x;
+/*background: -webkit-gradient (linear, 0 0, 0 bottom, from (#ffc66b), to (#ff9311));
+background: -webkit-linear-gradient (#ffc66b, #ff9311);
+background: -moz-linear-gradient (#ffc66b, #ff9311);
+background: -ms-linear-gradient (#ffc66b, #ff9311);
+background: -o-linear-gradient (#ffc66b, #ff9311);
+background: linear-gradient (#ffc66b, #ff9311);
+-pie-background: linear-gradient (#ffc66b, #ff9311);
+behavior: url(/PIE.htc);*/
+}
+
+.faqmenu .menuitem .text {
+    margin-left:8px;
+    padding-top:8px;
+    padding-bottom:8px;
+    font-size:12px;
+    font-weight:bold;
+    text-shadow:none;
+}
+
+.faqmenu .menuitem .threadcount {
+    font-weight: bold;
+    margin-right: 8px;
+    color: #84aa31;
+}
+
+.faqmenu .menuitem:hover .threadcount {
+    color: #4e3205;
+}
+
+
+.faqmenu a{
+    text-decoration:none;
+    color:#c7c7c7;
+}
+.faqmenu a:hover{
+    color:#4e3205;
+}
+
+.faqmenu .menuitem .text .label {
+    font-family:Arial, sans-serif;
+    font-size:11px;
+    font-style:italic;
+    color:#84aa31;
+}
+.faqmenu .menuitem:hover .text .label,.faqmenu .menuitem.active .text .label  {
+    color:#764c08;
+}
+
+/* Стили для левого меню: */
+.padmenu .menuitem #get.text {background:transparent url(../images/icons/get.png) left center no-repeat;}
+.padmenu .menuitem:hover #get.text,.padmenu .menuitem.active #get.text {background:transparent url(../images/icons/get-hover.png) left center no-repeat;}
+.padmenu .menuitem #put.text {background:transparent url(../images/icons/put.png) left center no-repeat;}
+.padmenu .menuitem:hover #put.text, .padmenu .menuitem.active #put.text {background:transparent url(../images/icons/put-hover.png) left center no-repeat;}
+.padmenu .menuitem #switch.text {background:transparent url(../images/icons/switch.png) left center no-repeat;}
+.padmenu .menuitem:hover #switch.text,.padmenu .menuitem.active #switch.text {background:transparent url(../images/icons/switch-hover.png) left center no-repeat;}
+
+.padmenu .menuitem .text {
+    font-family: Arial, sans-serif;
+    font-size:18px;
+}
+
+
+/* вкладки, версия 1. нужно переписать, чтобы урл был всей кнопкой, а не только надписью */
+#yw2 {
+    height:34px;
+}
+.tab {
+    display:inline-block;
+    margin:0 -15px;
+    float:right;
+    z-index:1;
+    position:relative;
+
+}
+.tableft {
+    display:inline-block;
+    margin:0px;
+    padding:0px;
+    background: transparent url(../images/tabs/tableft.png) right bottom no-repeat;
+    width:34px;
+    height:34px;
+    z-index:-1;
+	cursor:pointer
+}
+.tabright {
+    display:inline-block;
+    margin:0px;
+    padding:0px;
+    background: transparent url(../images/tabs/tabright.png) left bottom no-repeat;
+    width:34px;
+    height:34px;
+    z-index:-1;
+	cursor:pointer
+}
+.tabcenter {
+    display:inline-block;
+    margin-top:px;
+/*    padding-top: 18px;*/
+    background: transparent url(../images/tabs/tabbg.png) bottom center repeat-x;
+    vertical-align: top;
+    height:34px;
+    z-index:-1;
+	cursor:pointer
+}
+.tab:hover {
+    z-index:30;
+}
+.tab .tabcenter .tablabel a{
+    color:#c7c7c7;
+    font-size:16px;
+    font-weight:bolder;
+    font-family:Arial,sans-serif;
+    position:relative;
+    text-shadow: 0px -1px 1px #151617;
+}
+.active .tab .tabcenter .tablabel a, .active .tab:hover .tabcenter .tablabel a{
+    color:#383a3f;
+    text-shadow: 0px 1px 1px #d9d9d9;
+}
+.tab:hover .tabcenter .tablabel a{
+    color:#573908;
+    text-shadow: 1px 1px 1px #ffbf68;
+}
+.tab:hover .tableft{background: transparent url(../images/tabs/tableft-hover.png) right bottom no-repeat;}
+.tab:hover .tabcenter {background: transparent url(../images/tabs/tabbg-hover.png) bottom center repeat-x;}
+.tab:hover .tabright{background: transparent url(../images/tabs/tabright-hover.png) right bottom no-repeat;}
+.active .tab {z-index:40;}
+.active .tab .tableft {background: transparent url(../images/tabs/tableft-active.png) right bottom no-repeat;}
+.active .tab .tabcenter{background: transparent url(../images/tabs/tabbg-active.png) center bottom repeat-x;}
+.active .tab .tabright {background: transparent url(../images/tabs/tabright-active.png) right bottom no-repeat;}
+.tablabel {height:40px; vertical-align: middle; display:inline-block;}
+.tab .tabcenter .tabico {width:24px; height:34px; display:inline-block;margin:0 8px 0 -4px;}
+#faq .tab .tabcenter .tabico {background:transparent url(../images/tabs/tabicoFaq.png) 50% 50% no-repeat;}
+#chat .tab .tabcenter .tabico {background:transparent url(../images/tabs/tabicoChat.png) 50% 50% no-repeat;}
+
+#messages .tab .tabcenter .tabico {background:transparent url(../images/tabs/tabicoMessages.png) 50% 50% no-repeat;}
+#messages .tab:hover .tabcenter .tabico {background:transparent url(../images/tabs/tabicoMessages-hover.png) 50% 50% no-repeat;}
+#messages.active .tab .tabcenter .tabico {background:transparent url(../images/tabs/tabicoMessages-active.png) 50% 50% no-repeat;}
+
+#messages_unread .tab .tabcenter .tabico {background:transparent url(../images/tabs/tabicoMessages-unread.png) 50% 50% no-repeat;}
+#messages_unread .tab:hover .tabcenter .tabico {background:transparent url(../images/tabs/tabicoMessages-hover-unread.png) 50% 50% no-repeat;}
+#messages_unread.active .tab .tabcenter .tabico {background:transparent url(../images/tabs/tabicoMessages-active-unread.png) 50% 50% no-repeat;}
+
+#partner .tab .tabcenter .tabico {background:transparent url(../images/tabs/keis.png) 50% 50% no-repeat;} 
+#partner .tab:hover .tabcenter .tabico {background:transparent url(../images/tabs/keis2.png) 50% 50% no-repeat;}
+#partner.active .tab .tabcenter .tabico {background:transparent url(../images/tabs/keis.png) 50% 50% no-repeat;}
+
+
+#history .tab .tabcenter .tabico {background:transparent url(../images/tabs/tabicoHistory.png) 50% 50% no-repeat;}
+#accounts .tab .tabcenter .tabico {background:transparent url(../images/tabs/tabicoAccounts.png) 50% 50% no-repeat;}
+#faq .tab:hover .tabcenter .tabico {background:transparent url(../images/tabs/tabicoFaq-hover.png) 50% 50% no-repeat;}
+#chat .tab:hover .tabcenter .tabico {background:transparent url(../images/tabs/tabicoChat-hover.png) 50% 50% no-repeat;}
+
+#history .tab:hover .tabcenter .tabico {background:transparent url(../images/tabs/tabicoHistory-hover.png) 50% 50% no-repeat;}
+#accounts .tab:hover .tabcenter .tabico {background:transparent url(../images/tabs/tabicoAccounts-hover.png) 50% 50% no-repeat;}
+#faq.active .tab .tabcenter .tabico {background:transparent url(../images/tabs/tabicoFaq-active.png) 50% 50% no-repeat;}
+#chat.active .tab .tabcenter .tabico {background:transparent url(../images/tabs/tabicoChat-active.png) 50% 50% no-repeat;}
+
+#history.active .tab .tabcenter .tabico {background:transparent url(../images/tabs/tabicoHistory-active.png) 50% 50% no-repeat;}
+#accounts.active .tab .tabcenter .tabico {background:transparent url(../images/tabs/tabicoAccounts-active.png) 50% 50% no-repeat;}
+
+
+.statcalendar {
+    left: -32px;
+    position: relative;
+    top: 6px;
+}
+.statselect{
+
+    background: none repeat scroll 0 0 #141517;
+    border: 0 none;
+    border-radius: 13px 13px 13px 13px;
+    box-shadow: 0 1px 0 0 #505256, 0 1px 1px 0 #0A0A0B inset;
+    color: #C7C7C7;
+    display: inline-block;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px 10px;
+
+}
+/* ============ Конец вкладок ==========*/
+
+yw0 {
+    float:left;
+}
+
+a.roundedbutton{
+    background:transparent url(../images/roundedbutton.png) top right no-repeat;
+    width:116px;
+    height:21px;
+    padding-left:24px;
+    padding-top:5px;
+    text-align: center;
+    text-decoration: none;
+    font-size:14px;
+    color:#182300;
+    text-shadow: #99b658 1px 1px 1px;
+}
+a.roundedbutton:hover {
+    background:transparent url(../images/roundedbutton-hover.png) top right no-repeat;
+    color:#573908;
+    text-shadow: #f4b158 1px 1px 1px;
+}
+
+#msg {
+    background:transparent url(../images/msgbox.png) top left no-repeat;
+    height:163px;
+    width:240px;
+    display:block;
+    margin-top:-320px;
+    position: relative;
+}
+
+#msg-rel {
+    position:relative;
+    height:100%;
+    width:100%;
+}
+#msg-close {
+    position:absolute;
+    z-index:1;
+    top:8px;
+    right:8px;
+    height:10px;
+    width:10px;
+    cursor:pointer;
+    background:transparent url(../images/msgboxclose.png) no-repeat;
+}
+#msg-text {
+    position: absolute;
+    top:0;
+    left:0;
+    padding:20px 18px;
+    text-align:center;
+    font-family:Arial, sans-serif;
+    font-size:15px;
+    font-style: italic;
+    height:45px;
+}
+#msg-timer {
+    position: absolute;
+    bottom:55px;
+    background:transparent url('../images/msgboxtictac.png') 0% 50% no-repeat;
+    margin-left:55px;
+    padding-left:27px;
+    padding-top:1px;
+    font-size:25px;
+
+}
+a.padgreybutton {
+    background:transparent url(../images/padtable-button.png) top left repeat-x;
+    -moz-box-shadow:    0 1px 0px 0px #4a4a4a;
+    -webkit-box-shadow: 0 1px 0px 0px #4a4a4a;
+    box-shadow:         0 1px 0px 0px #4a4a4a;
+    text-shadow: #cbcbcb 1px 1px 1px;
+    color: #1e1f1f;
+    padding: 1px 10px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    behavior: url(/PIE.htc);
+    height:19px;
+	text-decoration:none;
+}
+a.padgreybutton:hover {
+    background:transparent url(../images/buttonbghover.png);
+    color:#573908;
+    text-shadow: #f4b158 1px 1px 1px;
+}
+
+a.padplus {
+    background:transparent url(../images/padtable-plus.png) top center no-repeat;
+    width:21px;
+    height:21px;
+    margin:0;
+    padding:0;
+    display:inline-block;
+}
+
+a.padminus {
+    background:transparent url(../images/padtable-minus.png) top center no-repeat;
+    width:21px;
+    height:21px;
+    margin:0;
+    padding:0;
+    display:inline-block;
+}
+
+.greenbutton, .greybutton {
+    -moz-box-shadow:    0 1px 0px 0px #4a4a4a;
+    -webkit-box-shadow: 0 1px 0px 0px #4a4a4a;
+    box-shadow:         0 1px 0px 0px #4a4a4a;    
+    padding: 3px 10px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    behavior: url(/PIE.htc);    
+    border: none;
+    text-decoration: none;    
+}
+
+.greenbutton {
+    background:transparent url(../images/buttonbg.png) top center repeat-x;
+    text-shadow: #c7c7c7 0 1px 1px;    
+    color: #182300;
+display: inline-block;
+}
+
+.greybutton {
+    background:transparent url('../images/greybuttonbg.png') top center repeat-x;
+    text-shadow: #cbcbcb 1px 1px 1px;
+    color: #1e1f1f;
+}
+
+.greenbutton:hover, .greybutton:hover {
+    background:transparent url('../images/buttonbghover.png');
+    color:#573908;
+    text-shadow: #f4b158 1px 1px 1px;
+}
+
+/* Это нужно для оформления таблицы выбора счета на странице внутреннего перевода*/
+
+.padtable span div.trow:hover {
+    background: transparent url(../images/padtable-hover.png) top center repeat-x;
+    color:#fae4c3;
+}
+
+.padtable span div.trow .type {
+    width:132px;
+}
+
+.padtable span div.trow .ballance {
+    width:55px;
+}
+
+.padtable span div.trow .leverage {
+    width:15px;
+}
+
+.padtable span div.trow .mtid {
+    width:40px;
+    white-space: nowrap;
+	padding-left:0px;
+}
+
+.padtable span div.trow .curpair {
+    width:65px;
+}
+
+.padtable span div.trow:hover div {
+    color:#fae4c3;
+}
+
+.padtable span div.trow {
+    border-bottom:1px solid #393b40;
+}
+.padtable span div.trow:last-child {
+    border-bottom:none;
+}
+
+.padtable span div.trow label div {
+    display:inline-block;
+}
+
+.padtable span div.trow label {
+    width:100%;
+    height:27px;
+    display:block;
+}
+
+.padtable span div.trow input {
+    position:absolute;
+    padding:0px;
+    margin:0px;
+	width:120px;
+    height:30px;
+	display: none;	
+	display: block\9;
+	opacity:0;
+	filter: alpha(opacity=0);
+	cursor:pointer;
+}
+
+.padtable span div.trow input[type="radio"]:checked+label{
+    font-weight: bold;
+    background-color: #2c2d2f;
+
+}
+.padtable span div.trow:hover input[type="radio"]:checked+label{
+    background: transparent url(../images/padtable-hover.png) top center repeat-x;
+}
+.half-width {
+    width: 350px;
+}
+
+.right-marged {
+    margin-right:15px;
+}
+.pad{
+	margin-left: 204px;
+}
+
+.trow .pad {
+	margin-left: 165px;
+}
+
+.curselector {
+    width:170px;
+}
+
+#converter-toggler, #filter-toggler {
+    cursor: pointer;
+}
+#converter {
+/*    display:none;*/
+}
+#converter div.form {
+    margin-left:30px;
+    margin-top:-10px;
+}
+
+#converter-submit {
+    margin:10px auto 0 auto;
+    width:130px;
+}
+
+/*#converter div.form input, #converter div.form select, #converter div.form .select-container .valuebox {
+    margin-top:inherit;
+}*/
+#converter div.form input[type=text] {
+    width:110px;
+}
+#converter div.form input[type=submit] {
+
+}
+#converter #equals {
+    background: transparent url(../images/equals.png) 50% 50% no-repeat;
+    display:inline-block;
+    width:50px;
+    height:28px;
+    vertical-align: middle;
+    cursor:pointer;
+/*    margin-top: inherit;*/
+}
+    #captcha-image {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow:    0 1px 0px 0px #505256, inset 0 1px 1px 0 #0a0a0b;
+    -webkit-box-shadow: 0 1px 0px 0px #505256, inset 0 1px 1px 0 #0a0a0b;
+    box-shadow:         0 1px 0px 0px #505256, inset 0 1px 1px 0 #0a0a0b;
+    display:inline-block;
+/*    margin:10px 0 0 10px;*/
+    vertical-align: middle;
+    clear:none;
+    display:block;
+    margin-top:10px;
+    }
+div#curfrom, div#curto {
+    width:75px;
+    vertical-align: top;
+}
+div#curfrom .radiobox{
+/*    margin-top:0;*/
+}
+
+.foldable {
+    display: none;
+}
+.foldable.active {
+    display: block;
+}
+
+.certificate {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    padding: 0;
+    margin: 0 0 -8px 0;
+	overflow:hidden;
+	zoom:1;
+}
+
+.certificate.valid {
+    background: transparent url('../images/icons/certificate2_checkmark.png') left center no-repeat;    
+}
+
+.certificate.unknown {
+    background: transparent url('../images/icons/certificate2_help.png') left center no-repeat;    
+}
+
+.certificate.pending {
+    background: transparent url('../images/icons/certificate2_clock.png') left center no-repeat;    
+}
+
+.certificate.invalid {
+    background: transparent url('../images/icons/certificate2_cross.png') left center no-repeat;    
+}
+
+.inline {
+    display: inline-block;
+}
+
+.toggler {
+    float: left;
+    padding-right: 20px;
+    background: url("../images/icons/arr_down.png") right no-repeat;*/
+}
+
+.toggler-right {
+    float: right;
+}
+
+.toggler-expanded {
+    background-image: url("../images/icons/arr_up.png");
+}
+
+.toggler + div {
+    clear: left;
+    padding-top: 1.5em;
+}
+
+.separator + .content-box, .separator + form > .content-box  {
+    margin-top: 0.5em;
+}
+
+.grid-loading-fancy {
+    background: url("../images/fancybox_loading.gif") no-repeat;
+}
+
+.grid-view .padtable thead a.asc {
+    background: url("../images/asc_light.png") right no-repeat;
+    padding-right: 12px;
+}
+
+.grid-view .padtable thead a.desc {
+    background: url("../images/desc_light.png") right no-repeat;
+    padding-right: 12px;
+}
+
+.payment-cancel-link {
+    display: inline-block;
+    float: right;
+}
+
+table.widetable tr td, table.widetable tr th{
+    white-space: nowrap;
+}
+
+.padmenu .menuitem #tradeHistory.text {
+    background: transparent url("../images/tabs/tabicoHistory.png")  left center no-repeat;
+}
+
+.padmenu .menuitem:hover #tradeHistory.text, .padmenu .menuitem.active #tradeHistory.text {
+    background:transparent url("../images/tabs/tabicoHistory-hover.png") left center no-repeat;
+}
+
+.grid-view table tr.footer-row td {
+    background: #383A3F;
+    font-weight: bold;
+}
+
+.full-center-cnt {
+    margin-top: -30px;
+    padding-bottom: 200px;
+}
+
+.bnrs {
+    margin-top: 15px;
+    margin-bottom: 190px;
+}
+
+.bn-block {
+    margin-bottom: 10px;
+}
+
+.bn-block a img {
+    max-width: 245px;
+}
+
+.padblock {
+    padding: 8px 11px 11px;
+}

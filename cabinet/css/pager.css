@@ -1,0 +1,54 @@
+.pagination {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.pagination ul {
+    float: none;
+    display: inline;
+    width: auto;
+    padding: 8px 4px 10px 10px;
+    margin: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background: #141517;
+    border-top: 1px solid #0a0a0b;
+    border-bottom: 1px solid #393b40;
+}
+
+.pagination ul li {
+    list-style-type: none;
+    display: inline-block;
+    zoom: 1;
+}
+
+.pagination ul li.hidden {
+    display: none;
+}
+
+.pagination ul li a {
+    padding: 6px 12px;
+    margin-left: -6px;
+    color: #bdbebe;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline;
+    position: relative;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.pagination ul li a:hover {
+    background: #333333;
+}
+
+.pagination ul li.selected a {
+    color: #4e3205;
+    background: #ffab3b url("../../images/buttonbghover.png") repeat-x;
+    text-shadow: 1px 1px #ffb659;
+}

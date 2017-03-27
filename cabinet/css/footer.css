@@ -1,0 +1,136 @@
+#footer-out {
+    width:100%;
+    background: #000000 url('../images/footerfangs.png') top repeat-x;
+    height: auto !important;
+    margin-top: -140px;
+    z-index: 1;
+    position: relative;
+    min-height: 140px;
+}
+
+#footer {
+    padding: 30px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #c7c7c7;
+    width:960px;
+    text-align: left;
+}
+
+.footer-content a {
+    text-decoration: none;
+}
+
+#footercopy {
+    width:240px;
+    text-align:right;
+    margin-right:20px;
+}
+#footerlinks a{
+    margin: 0 20px 16px 0;
+    display:inline-block;
+}
+#footer-logo{
+    background: transparent url('../images/footer-logo.png') center center no-repeat;
+    height: 17px;
+    width: 68px;
+}
+
+.foot-icons ul.footer-links {
+    width: auto;
+    float: none;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.foot-icons ul.footer-links li {
+    width: auto;
+    margin-left: 20px;
+    float: left;
+    padding: 0;
+    margin-bottom: 2px;
+}
+
+.foot-icons ul.footer-links li a {
+    background-position: left top;
+    font-size: 12px;
+    padding-left: 25px;
+    display: block;
+    height: 22px;
+    line-height: 18px;
+    text-decoration: underline;
+}
+
+.foot-icons ul.footer-links li a:hover {
+    text-decoration: none;
+}
+
+.foot-icons .download {
+    background: url('../img/download.png') no-repeat;
+}
+.foot-icons .chat {
+    background: url('../img/chat.png') no-repeat;
+    background-position: left 2px !important;
+}
+.foot-icons .callback {
+    background: url('../img/callback.png') no-repeat;
+}
+
+.footer-content .part {
+    position: static;
+    border-bottom: none;
+    float: left;
+    top: -200px;
+    width: 930px;
+    padding: 0 15px;
+    background: #141517;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    behavior: url(/public/htc/PIE.htc);
+    border-top: 1px solid #0A0A0B;
+}
+
+.footer-content .part a {
+    float: left;
+    margin: 0 0 0 19px;
+}
+
+.footer-content .part a:first-child {
+    margin: 0 !important;
+}
+
+.footer-content .foot-menu-row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.foot-soc-row .vcell {
+    float: none;
+    position: relative;
+    vertical-align: bottom;
+    display: table-cell;
+    height: 50px;
+}
+
+.foot-soc-row .vcell p {
+    margin-bottom: 0;
+}
+
+.foot-soc-row .cell-row {
+    padding-bottom: 7px;
+}
+
+.footer-content .cell-copy {
+    text-align: right;
+}
+
+.msg-container {
+    position: relative;
+    top: -140px;
+}
+
+.msg-container > #msg {
+    float: left;
+}

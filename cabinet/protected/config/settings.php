@@ -1,0 +1,1 @@
+a:2:{s:11:"bd_sendType";s:1:"2";s:12:"bd_countries";a:1:{i:0;s:2:"44";}}

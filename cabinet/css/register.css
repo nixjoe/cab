@@ -1,0 +1,495 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+	background: transparent url('../images/bg.png') 0% 0%;
+        height:100%;
+        min-height: 100%;
+    	color: #555;
+	font: normal 10pt Arial,Helvetica,sans-serif;
+}
+#newbody {
+    min-height:100%;
+    _height:100%;
+    height:auto !important;
+    height:100%;
+}
+#page
+{
+    padding-bottom:140px;
+/*	margin-top: 5px;*/
+/*	margin-bottom: 5px;*/
+/*	background: white;*/
+/*	border: 1px solid #C9E0ED;*/
+}
+
+#header-left
+{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 265px;
+}
+
+#header-logo
+{
+    background: transparent url(../images/reg-logo.png) top left no-repeat;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 420px;
+    height: 140px;
+    margin-top:45px;
+    margin-bottom:27px;
+}
+
+#header-right
+{
+    
+}
+
+#content
+{
+    padding: 20px;
+}
+
+#sidebar
+{
+	padding: 20px 20px 20px 0;
+}
+
+#footer-out
+{
+    position:relative;    
+    width:100%;
+    background: #141517;
+    height: 140px;
+    padding:0;
+    margin-top: -140px;
+}
+
+#footer
+{
+	padding: 30px;
+        margin: 0 auto;
+	font-size: 12px;
+	text-align: center;
+        color: #c7c7c7;
+        width:960px;
+/*	border-top: 1px solid #C9E0ED;*/
+}
+
+#logo
+{
+	padding: 10px 20px;
+	font-size: 200%;
+}
+
+#mainmenu
+{
+	background:white url(bg.gif) repeat-x left top;
+}
+
+#mainmenu ul
+{
+	padding:6px 20px 5px 20px;
+	margin:0px;
+}
+
+#mainmenu ul li
+{
+	display: inline;
+}
+
+#mainmenu ul li a
+{
+	color:#ffffff;
+	background-color:transparent;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:5px 8px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	color: #6399cd;
+	background-color:#EFF4FA;
+	text-decoration:none;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.search-form
+{
+	padding: 10px;
+	margin: 10px 0;
+	background: #eee;
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-left: 5px solid #6FACCF;
+}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #298dcd;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+	font: bold 12px Arial;
+	color: #0066A4;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.operations li a:visited
+{
+	color: #0066A4;
+}
+
+.operations li a:hover
+{
+	background: #80CFFF;
+}
+
+/***************** CUSTOM CODE */
+DIV#content DIV.compactRadioGroup {
+    padding-left: 1em;
+}
+ 
+DIV#content .compactRadioGroup LABEL,
+DIV#content .compactRadioGroup INPUT {
+    display: inline;
+}
+
+.label-left {
+    width: 250px;
+    padding-right:15px;
+    text-align:right;
+    display:inline-block;
+}
+.input-full {
+    width:400px;
+    display:inline-block;
+}
+.text-full {
+    width:420px;
+    display:inline-block;
+    color:#c7c7c7;
+    text-align:justify;
+
+}
+.line-error {
+    background: transparent url(../images/error-line.png) top left no-repeat;
+    width:232px;
+    display:inline-block;
+    height: 31px;
+    line-height:31px;
+    margin:0 0 0 10px;
+    padding: 0 13px;
+    color:#000;
+	overflow:hidden;
+text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* Небольшой хак, чтобы опустить ссылку в заголовке вниз */
+.margined {
+    margin-top:10px;
+}
+.full-center {
+    width:420px;
+    display:inline-block;
+    color:#c7c7c7;
+    text-align:justify;    
+}
+
+span#Users_sex input{
+	color: inherit !important
+   
+   
+}
+
+.midleft-input {
+    width:180px;
+    display:inline-block;
+    margin-right: 17px;    
+}
+.midright-input {
+    width:180px;
+    display:inline-block;
+}
+#Users_country {
+    width:200px;
+}
+
+#Users_birthDay {
+    width: 80px;
+    margin-right: 15px;
+}
+#Users_birthYear {
+    width:80px;
+}
+#Users_birthMonth{
+    width:160px;
+    margin-right:15px;
+}
+
+
+
+.separator {background: transparent url(../images/separator.png) left;height:2px;display:inline-block;margin:10px 200px 10px 270px;padding:0;}
+
+.ui-autocomplete-input{
+    height:16px;
+}
+    .ui-autocomplete {
+      list-style: none;
+      background-color: #45474c;
+      max-height: 350px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      padding-left:0px;
+    }
+    
+    .ui-widget-content{
+        width:205px;
+        overflow:hidden;
+/*        -moz-box-shadow:    0 -10px 0px 10px #4a4a4a;
+        -webkit-box-shadow: 0 -10px 0px 10px #4a4a4a;
+        box-shadow:         0 -10px 0px 10px #4a4a4a;*/
+    }
+    .ui-autocomplete .ui-menu-item a {
+/*      border-top: 1px solid #B0BECA;*/
+      display: block;
+      height:23px;
+      cursor: pointer;
+      text-decoration:none;
+      white-space: nowrap;
+      padding-top:7px;
+      padding-left:10px;
+      color: #c7c7c7;
+    }
+    .ui-autocomplete .ui-menu-item:first-child a {
+      
+    }
+    .ui-autocomplete .ui-menu-item a.ui-state-hover {
+-webkit-box-shadow: inset #ffe4ba 0px 1px 0;
+-moz-box-shadow: inset #ffe4ba 0px 1px 0;
+box-shadow: inset #ffe4ba 0px 1px 0;
+background: #ffc66b;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffc66b), to(#ff9311));
+background: -webkit-linear-gradient(#ffc66b, #ff9311);
+background: -moz-linear-gradient(#ffc66b, #ff9311);
+background: -ms-linear-gradient(#ffc66b, #ff9311);
+background: -o-linear-gradient(#ffc66b, #ff9311);
+background: linear-gradient(#ffc66b, #ff9311);
+-pie-background: linear-gradient(#ffc66b, #ff9311);
+      color: #573908;
+    }
+    #captcha-image {
+		margin-top:10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow:    0 1px 0px 0px #505256, inset 0 1px 1px 0 #0a0a0b;
+    -webkit-box-shadow: 0 1px 0px 0px #505256, inset 0 1px 1px 0 #0a0a0b;
+    box-shadow:         0 1px 0px 0px #505256, inset 0 1px 1px 0 #0a0a0b;    
+    display:inline-block;
+/*    margin:10px 0 0 10px;*/
+    vertical-align: middle;
+    clear:none;
+    display:block;  
+    margin-left:270px;        
+    } 
+    select#Users_birthMonth option {
+        margin:5px;
+    }
+/*    select#Users_birthMonth {
+  -webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: none;
+  appearance: button;
+  background:red;
+background-image: url(../images/select-arrow.png), 
+    -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+  background-position: center right;
+  background-repeat: no-repeat;
+  border: 1px solid #AAA;
+  color: #555;
+  font-size: inherit;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+    
+    }*/
+#select-birthMonth{
+    width:140px;
+    margin-right:15px;
+}
+#select-birthMonth .radiobox{
+/*    height:360px;*/
+}
+
+#select-birthYear{
+    width:140px;
+    margin-right:15px;
+}
+#select-birthYear .radiobox {
+    height: 353px;
+}
+
+#select-birthYear .scrollable {
+    height: 348px;
+}
+
+#select-country{
+    width: 200px;
+    margin-right:15px;
+}
+
+#select-country .radiobox {
+    height: 353px;
+}
+
+#select-country .scrollable {
+    height: 348px;
+}
+
+#dialcode {
+    width:85px;
+    font-family: arial, sans-serif;
+    font-weight:bold;
+    color:#84aa31;
+    text-align: center;
+    margin-right:15px;
+}
+#Users_phone{
+   width: 280px;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.upcase {
+    text-transform: uppercase;
+}
